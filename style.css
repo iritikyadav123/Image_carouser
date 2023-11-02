@@ -1,0 +1,28 @@
+.container{
+    border: 1px solid;
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+}
+.image{
+    display: none;
+}
+#prve{
+    position: absolute;
+    color: aliceblue;
+    top: 43%;
+    left: 0;
+    cursor: pointer;
+}
+#next{
+    position: absolute;
+    color: aliceblue;
+    top: 43%;
+    right: 0;
+    cursor: pointer;
+}
